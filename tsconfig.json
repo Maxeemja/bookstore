@@ -17,6 +17,13 @@
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
-    "paths": {}
+    "paths": {
+      "y/contracts": [
+        "libs/contracts/src"
+      ],
+      "y/contracts/*": [
+        "libs/contracts/src/*"
+      ]
+    }
   }
 }
